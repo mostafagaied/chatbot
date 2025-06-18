@@ -1,0 +1,14 @@
+transformers==4.38.2
+datasets==2.18.0
+sentencepiece
+accelerate>=0.21.0
+pandas
+pdfplumber
+torch==2.2.2
+numpy<2
+peft==0.10.0
+scikit-learn
+tqdm
+pytesseract
+pillow
+aiohttp==3.8.6
