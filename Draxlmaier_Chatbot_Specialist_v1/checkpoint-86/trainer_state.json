@@ -1,0 +1,55 @@
+{
+  "best_metric": 0.301880734586529,
+  "best_model_checkpoint": "Draxlmaier_Chatbot_Specialist_v1\\checkpoint-86",
+  "epoch": 2.991304347826087,
+  "eval_steps": 500,
+  "global_step": 86,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.9739130434782609,
+      "eval_loss": 3.0540809631347656,
+      "eval_rougeL": 0.2740410730307197,
+      "eval_runtime": 5.0555,
+      "eval_samples_per_second": 20.176,
+      "eval_steps_per_second": 2.571,
+      "step": 28
+    },
+    {
+      "epoch": 1.7391304347826086,
+      "grad_norm": 0.305318146944046,
+      "learning_rate": 3.99558087667677e-05,
+      "loss": 3.3635,
+      "step": 50
+    },
+    {
+      "epoch": 1.982608695652174,
+      "eval_loss": 2.9657442569732666,
+      "eval_rougeL": 0.2863770685864012,
+      "eval_runtime": 3.3851,
+      "eval_samples_per_second": 30.132,
+      "eval_steps_per_second": 3.84,
+      "step": 57
+    },
+    {
+      "epoch": 2.991304347826087,
+      "eval_loss": 2.808082342147827,
+      "eval_rougeL": 0.301880734586529,
+      "eval_runtime": 3.1935,
+      "eval_samples_per_second": 31.94,
+      "eval_steps_per_second": 4.071,
+      "step": 86
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 420,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 15,
+  "save_steps": 500,
+  "total_flos": 100099578249216.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
