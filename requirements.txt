@@ -12,3 +12,26 @@ tqdm
 pytesseract
 pillow
 aiohttp==3.8.6
+
+# Core
+torch
+torchvision
+torchaudio
+
+# Hugging Face Stack
+transformers
+datasets
+accelerate
+peft
+trl
+bitsandbytes
+tokenizers
+
+# Data & Utilities
+pandas
+pypdf
+
+# Evaluation
+evaluate
+scikit-learn
+numpy
